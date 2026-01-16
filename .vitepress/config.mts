@@ -9,6 +9,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   lang: 'ja-JP',
+  base: '/vitepress-practice/',
   ignoreDeadLinks: [
     /localhost/
   ],
@@ -59,7 +60,7 @@ export default defineConfig({
     ]),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/zakzakst/vitepress-practice' }
     ],
 
     search: {
@@ -73,6 +74,6 @@ export default defineConfig({
   },
   
   sitemap: {
-    hostname: 'https://example.com'
+    hostname: 'https://zakzakst.github.io/vitepress-practice/'
   }
 })
