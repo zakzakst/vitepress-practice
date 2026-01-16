@@ -1,0 +1,27 @@
+{
+  "name": "vitepress-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakzakst/vitepress-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakzakst/vitepress-practice/issues"
+  },
+  "homepage": "https://github.com/zakzakst/vitepress-practice#readme",
+  "devDependencies": {
+    "@types/markdown-it-plantuml": "^1.4.5",
+    "markdown-it-plantuml": "^1.4.1",
+    "vitepress": "^2.0.0-alpha.15",
+    "vitepress-sidebar": "^1.33.1"
+  }
+}
